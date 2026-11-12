@@ -14,6 +14,7 @@ A comprehensive student portal for NITTE Meenakshi Institute of Technology built
 ## 🛠 Tech Stack
 
 ### Frontend
+
 - React 18 with TypeScript
 - Vite for development server
 - Tailwind CSS for styling
@@ -21,6 +22,7 @@ A comprehensive student portal for NITTE Meenakshi Institute of Technology built
 - Lucide React for icons
 
 ### Backend
+
 - Spring Boot 3.2.0
 - Spring Security with JWT
 - Oracle Database 23c FREE
@@ -28,6 +30,7 @@ A comprehensive student portal for NITTE Meenakshi Institute of Technology built
 - BCrypt for password encryption
 
 ### Database
+
 - Oracle Database 23c FREE
 - Custom schema with users, students, departments tables
 - Sample data with AIML department student
@@ -43,43 +46,52 @@ A comprehensive student portal for NITTE Meenakshi Institute of Technology built
 ## 🔧 Installation & Setup
 
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/Abhishekjc19/NMIT_COURSEREGISTRATION.git
 cd NMIT_COURSEREGISTRATION
 ```
 
 ### 2. Database Setup
+
 1. Install Oracle Database 23c FREE
 2. Connect as SYSTEM user
 3. Run the database setup script:
+
 ```sql
 -- Execute FIX-DATABASE-FINAL.sql or use VS Code Oracle extension
 -- This creates nmit_portal user and sample student data
 ```
 
 ### 3. Backend Setup
+
 ```bash
 cd backend
 mvn clean install
 mvn spring-boot:run
 ```
+
 Backend will start on http://localhost:8080
 
 ### 4. Frontend Setup
+
 ```bash
 cd project
 npm install
 npm run dev
 ```
+
 Frontend will start on http://localhost:4000
 
 ## 🎯 Usage
 
 ### Student Login
+
 - **USN**: 1NT23AI004
 - **DOB**: 19/04/2004 (or 2004-04-19)
 
 ### API Endpoints
+
 - `POST /auth/student-login` - Student authentication
 - `GET /api/student/details` - Get student profile
 - `GET /api/student/dashboard` - Get dashboard data
@@ -113,11 +125,13 @@ NMIT_COURSEREGISTRATION/
 ## 🗃 Database Schema
 
 ### Tables
+
 - **users**: User authentication and profile data
 - **students**: Student-specific information (USN, DOB, etc.)
 - **departments**: Academic department details
 
 ### Sample Data
+
 - AIML Department with sample student
 - Pre-configured user with encrypted password
 - Foreign key relationships maintained
@@ -125,11 +139,13 @@ NMIT_COURSEREGISTRATION/
 ## 🚀 Deployment
 
 ### Development
+
 - Frontend: Vite dev server with hot reload
 - Backend: Spring Boot with auto-restart
 - Database: Oracle FREE with VS Code extension
 
 ### Production
+
 - Build frontend: `npm run build`
 - Package backend: `mvn clean package`
 - Deploy JAR file with Oracle database connection
@@ -148,9 +164,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**Abhishek JC**
-- GitHub: [@Abhishekjc19](https://github.com/Abhishekjc19)
-- Email: abhishekjc19@gmail.com
+**Sagar Vijaykumar Bidari**
+- GitHub: https://github.com/SagarVB16
+- Email: sagarbidari9654@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -160,4 +176,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - VS Code extension developers
 
 ---
+
 Built with ❤️ for NMIT students
