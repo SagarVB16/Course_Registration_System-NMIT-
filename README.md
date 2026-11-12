@@ -165,7 +165,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **Sagar Vijaykumar Bidari**
-- GitHub: @SagarVB16(https://github.com/SagarVB16)
+- GitHub: [@SagarVB16](https://github.com/SagarVB16)
 - Email: sagarbidari9654@gmail.com
 
 ## 🙏 Acknowledgments
